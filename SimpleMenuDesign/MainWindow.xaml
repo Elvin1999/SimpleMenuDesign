@@ -10,24 +10,30 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*">
             </ColumnDefinition>
-            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
                 <RowDefinition Height="5*"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-                <Image Source="Resource\test.jpg">
-                    <Image.Width>220</Image.Width>
-                    
-                </Image>
+                <StackPanel>
+                   
+                    <Image
+                       
+                        Source="C:\Users\Documents\source\repos\SimpleMenuDesign\SimpleMenuDesign\Resource\applelogo.jpg">
+                        <Image.Stretch>UniformToFill</Image.Stretch>
+                        <Image.StretchDirection>Both</Image.StretchDirection>
+                    </Image>
+                </StackPanel>
+
             </Grid>
             <Grid Grid.Row="1">
                 <UniformGrid>
-                    <UniformGrid.Rows>7</UniformGrid.Rows>
-                    <Button></Button>
-                    <Button></Button>
+                    <UniformGrid.Rows>6</UniformGrid.Rows>
+                    
+                        <Button></Button>
                     <Button></Button>
                     <Button></Button>
                     <Button></Button>
