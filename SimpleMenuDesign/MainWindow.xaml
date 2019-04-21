@@ -47,8 +47,13 @@
                 <RowDefinition Height="4*"></RowDefinition>
                 <RowDefinition Height="*">
                 </RowDefinition>
+            
             </Grid.RowDefinitions>
+            <Grid.Background>
+                Blue
+            </Grid.Background>
             <Grid Grid.Row="1">
+                <Grid.Background>LightBlue</Grid.Background>
                 <Label Margin="-250,10,10,10">
                     <Label.Width>200</Label.Width>
                     <Label.Height>30</Label.Height>
