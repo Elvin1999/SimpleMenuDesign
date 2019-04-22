@@ -19,12 +19,9 @@
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
                 <StackPanel>
-                   
-                    <Image
-                       
-                        Source="C:\Users\Documents\source\repos\SimpleMenuDesign\SimpleMenuDesign\Resource\applelogo.jpg">
-                        <Image.Stretch>UniformToFill</Image.Stretch>
-                        <Image.StretchDirection>Both</Image.StretchDirection>
+
+                    <Image Source="Resource/apple.jpg">
+                        <Image.Stretch>Uniform</Image.Stretch>
                     </Image>
                 </StackPanel>
 
