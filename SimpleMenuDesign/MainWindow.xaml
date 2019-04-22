@@ -24,7 +24,6 @@
                         <Image.Stretch>Uniform</Image.Stretch>
                     </Image>
                 </StackPanel>
-
             </Grid>
             <Grid Grid.Row="1">
                 <UniformGrid>
